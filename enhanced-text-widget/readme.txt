@@ -3,8 +3,8 @@ Contributors: cl272
 Donate link: https://sellcodes.com/5U4SICyc
 Tags: widget, clickable, linkable, linked title, text, php, javascript, flash, linked title text, linked, text widget, php widget, link widget title, bare widget, widget shortcodes, enhanced text, better text widget, simple, html widget, css
 Requires at least: 3.6
-Tested up to: 6.4.2
-Stable tag: 1.6.4
+Tested up to: 6.6
+Stable tag: 1.6.7
 License: MIT
 License URI: http://opensource.org/licenses/MIT
 
@@ -57,6 +57,19 @@ Nothing right now.
 1. Widget options
 
 == Changelog ==
+
+= 1.6.7 =
+* Tested with WordPress 6.6
+* Minor performance improvements 
+* Improvements for PHP 8 utilization
+
+= 1.6.6 =
+* [NOTE] Adjusted sanitization for widget fields even further
+* [NOTE] Tested up with WordPress 6.4.3
+
+= 1.6.5 =
+* [NOTE] Upgraded analyst module to latest version
+* [NOTE] Improved sanitization of widget fields 
 
 = 1.6.4 =
 * [NOTE] Previous release didn't contain all branches and code that should be included, adjusted
@@ -178,8 +191,7 @@ Nothing right now.
 * First release.
 
 == Upgrade Notice ==
-= 1.6.4 =
-* [NOTE] Previous (v1.6.3) release didn't contain all branches and code that should be included, adjusted
-* [FIX] Resolved reported issues with etw_hide_admin_notification_callback action
-* [FIX] Adjusted plugin permissions in Multisite WP mode
-* [NOTE] Tested with WordPress 6.4.2
+= 1.6.7 =
+* Tested with WordPress 6.6
+* Minor performance improvements 
+* Improvements for PHP 8 utilization
